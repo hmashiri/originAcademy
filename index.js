@@ -36,11 +36,12 @@ function weightCalculator() {
 }
 
 
-function reversedString(string) {
-  var string = document.getElementById('astroTitle')
+ var title = "rotaluclaC thgieW ortsA"
+
+  function reversedString(string) {
   var reverse = '';
   for (var i = string.length - 1; i >= 0; i--){
   reverse += string[i]  }
-  document.getElementById('astroTitle').innerHTML = reverse;
-
+  return reverse
 }
+  document.getElementById('astroTitle').innerHTML = reversedString(title);
